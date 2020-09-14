@@ -1,0 +1,9 @@
+version: '3'
+services:
+  minecraft:
+    build:
+      context: docker
+    volumes:
+      - ./server:/home/minecraft
+    ports:
+      - 25565:25565
