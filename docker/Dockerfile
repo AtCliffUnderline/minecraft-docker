@@ -4,4 +4,4 @@ RUN apt install openjdk-8-jdk -y
 RUN java -version
 RUN cd /home && mkdir minecraft
 
-ENTRYPOINT cd /home/minecraft && java -Xmx4096M -Xms4096M -jar server.jar
+ENTRYPOINT cd /home/minecraft && java -Xmx1536M -Xms1536M -jar server.jar
